@@ -66,6 +66,7 @@ const app = Vue.createApp({
       this.chance=3;
       this.name='';
       this.points=0;
+      this.rno=Math.floor((Math.random() * 10) + 1);
     }
   }
   });
